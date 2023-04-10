@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Contoh Form</title>
+	</head>
+	<body>
+		<center>
+		<table border="3" bordercolor="grey">
+			<tr bgcolor="lightskyblue" align="center">
+			<td width="500" height="70" align="center" valign="top">
+			<font color="red" size="6"> <b> Pendaftaran Kursus </b></font>
+			</td></tr>
+			<tr bgcolor="grey" width="500" height="400" align="left" valign="top">
+			<td>
+			<table>
+				<tr>
+				<td>												
+					<h2> Data Diri</h2>
+				</td></tr>
+				<tr>
+					<td> Nama </td>
+					<td> <input type="text" ></td>
+				</tr>
+				<tr>
+					<td>Nim</td>							
+					<td> <input type="text" ></td>
+				</tr>
+				<tr>
+					<td> E-mail</td>							
+					<td><input type="email" name="email" required></td>
+				</tr>
+				<tr>
+					<td>Tanggal lahir</td>							
+					<td><input type="datetime" value="hh/bb/tttt" size="18"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td> <input type="radio" name="jenis_kelamin"> Laki-Laki</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="jenis_kelamin"> Perempuan</td>
+				</tr>
+				<tr>
+					<td>Pilih Program Khusus </td>
+					<td><input type="checkbox"> C#</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox"> Java</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox"> SQL</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox"> HTML dan PHP</td>
+				</tr>
+				<tr>
+					<td>Pilihan Hari/Jam Khurus</td>
+					<td><select name="jam">
+						<option value="a"> Senin - Rabu/09.00 - 11.00 </option>
+						<option value="b"> Selasa - Kamis/09.00 - 11.00 </option>
+						<option value="C"> Rabu - Jumat/09.00 - 11.00 </option>
+					</select></td>
+				</tr>
+			</table></td>
+		</tr>
+		<tr bgcolor="salmon" width="500" height="150" align="left" valign="top">
+			<td>
+			<table>
+				<tr><td>												
+					Komentar Anda
+				</td></tr>
+				<tr>
+					<td><textarea rows="5" cols="50"></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="reset" value="Reset" name="Reset">
+						<input type="submit" value="Submit" name="Submit">
+						<input type="button" value="Cancel" name="Cancel">
+					</td>
+				</tr>
+			</table></td>
+		</tr></table></center>
+	</body>
+</html>
